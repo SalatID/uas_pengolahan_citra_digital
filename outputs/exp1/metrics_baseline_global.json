@@ -1,0 +1,19 @@
+{
+  "confusion_matrix": {
+    "tp": 8,
+    "tn": 40,
+    "fp": 8,
+    "fn": 40
+  },
+  "accuracy": 0.5,
+  "precision": 0.5,
+  "recall": 0.16666666666666666,
+  "f1": 0.25,
+  "mode": "baseline_global",
+  "n_samples": 96,
+  "n_skipped": 0,
+  "threshold_tuning": true,
+  "threshold_method": "mad15",
+  "threshold_value": 14.756932020187378,
+  "morph_params": null
+}
