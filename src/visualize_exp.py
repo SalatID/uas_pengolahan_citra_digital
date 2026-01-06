@@ -10,7 +10,7 @@ def save_overlay_morphcc(image_bgr: np.ndarray, roi_rect: Tuple[int,int,int,int]
     cv2.rectangle(vis, (x1,y1), (x2,y2), (0,0,255), 2)  # ROI total
 
     # draw CC boxes inside ROI (offset)
-    for (x,y,w,h,area) in comps:
+    for (x, y, w, h, area) in comps:
         cv2.rectangle(vis, (x1+x, y1+y), (x1+x+w, y1+y+h), (0,200,0), 1)
 
     cv2.imwrite(str(out_path), vis)

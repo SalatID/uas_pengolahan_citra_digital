@@ -67,4 +67,4 @@ if __name__ == "__main__":
     root = Path(".")
     split = root / "train"
     out_data = root / "data"
-    build(split, out_data, n_limit=50)
+    build(split, out_data, n_limit=150)
